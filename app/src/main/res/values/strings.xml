@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Expenses</string>
+
+    <!-- Navigation -->
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_budgets">Budgets</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common actions -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="cd_add">Add transaction</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_more">More options</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_previous_month">Previous month</string>
+    <string name="cd_next_month">Next month</string>
+    <string name="cd_previous_period">Previous period</string>
+    <string name="cd_next_period">Next period</string>
+
+    <!-- Transactions list -->
+    <string name="label_spent">Spent</string>
+    <string name="label_income">Income</string>
+    <string name="label_balance">Balance</string>
+    <string name="filter_all">All</string>
+    <string name="filter_expenses">Expenses</string>
+    <string name="filter_income">Income</string>
+    <string name="search_hint">Search transactions</string>
+    <string name="empty_transactions_title">No transactions yet</string>
+    <string name="empty_transactions_subtitle">Tap + to record your first expense or income.</string>
+    <string name="empty_filtered_title">No matching transactions</string>
+    <string name="empty_filtered_subtitle">Try a different search or filter.</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    <string name="transaction_restored">Transaction restored</string>
+
+    <!-- Add / edit transaction -->
+    <string name="title_add_transaction">Add transaction</string>
+    <string name="title_edit_transaction">Edit transaction</string>
+    <string name="type_expense">Expense</string>
+    <string name="type_income">Income</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_note">Note (optional)</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete_transaction">Delete transaction</string>
+    <string name="error_invalid_amount">Enter an amount greater than zero</string>
+    <string name="error_category_required">Choose a category</string>
+    <string name="error_save_failed">Could not save the transaction</string>
+    <string name="action_new_category">New category…</string>
+    <string name="category_added">Category added</string>
+    <string name="error_category_duplicate">A category with that name already exists</string>
+    <string name="transaction_not_found">This transaction no longer exists</string>
+    <string name="delete_confirm_title">Delete transaction?</string>
+    <string name="delete_confirm_message">This action cannot be undone.</string>
+    <string name="confirm_delete">Delete</string>
+
+    <!-- Budgets -->
+    <string name="budget_overall_title">Monthly budget</string>
+    <string name="budget_overall_subtitle">Your total spending limit for this month</string>
+    <string name="budget_set">Set overall budget</string>
+    <string name="budget_edit">Edit budget</string>
+    <string name="budget_spent_of">%1$s of %2$s</string>
+    <string name="budget_limit_label">of %1$s budget</string>
+    <string name="budget_remaining">%1$s left</string>
+    <string name="budget_over">%1$s over budget</string>
+    <string name="budget_used_percent">%1$d%% used</string>
+    <string name="budget_category_section">Category budgets</string>
+    <string name="budget_add_category">Add category budget</string>
+    <string name="budget_empty_title">No category budgets yet</string>
+    <string name="budget_empty_subtitle">Create a budget per category to keep spending on track.</string>
+    <string name="budget_no_overall">No overall budget set for this month.</string>
+    <string name="budget_dialog_title_overall">Overall monthly budget</string>
+    <string name="budget_dialog_title_category">Category budget</string>
+    <string name="budget_dialog_category">Category</string>
+    <string name="budget_dialog_amount">Budget amount</string>
+    <string name="budget_dialog_remove">Remove budget</string>
+    <string name="budget_saved">Budget saved</string>
+    <string name="budget_removed">Budget removed</string>
+    <string name="error_invalid_budget">Enter a budget amount greater than zero</string>
+    <string name="over_budget">Over budget</string>
+    <string name="on_track">On track</string>
+    <string name="unbudgeted_spending">%1$s unbudgeted spending</string>
+    <string name="budget_spent_label">Spent %1$s</string>
+    <string name="budget_of_label">of %1$s</string>
+
+    <!-- Reports -->
+    <string name="report_period_month">Month</string>
+    <string name="report_period_year">Year</string>
+    <string name="report_summary">Summary</string>
+    <string name="report_income">Income</string>
+    <string name="report_expense">Expenses</string>
+    <string name="report_net">Net</string>
+    <string name="report_savings_rate">Savings rate</string>
+    <string name="report_avg_daily">Avg. daily spend</string>
+    <string name="report_trend">Spending trend</string>
+    <string name="report_breakdown_expenses">Expenses by category</string>
+    <string name="report_breakdown_income">Income by category</string>
+    <string name="report_no_data">No data for this period</string>
+    <string name="report_no_data_subtitle">Add transactions to see your reports.</string>
+    <string name="report_transactions">Transactions</string>
+    <plurals name="report_transactions_count">
+        <item quantity="one">%1$d transaction</item>
+        <item quantity="other">%1$d transactions</item>
+    </plurals>
+    <string name="report_biggest_expense">Largest expense</string>
+    <string name="report_of_total">%1$d%% of total</string>
+    <string name="report_empty_breakdown">No activity in this period</string>
+    <string name="report_not_available">—</string>
+    <string name="cd_trend_chart">Spending trend chart</string>
+
+    <!-- Categories -->
+    <string name="categories_title">Categories</string>
+    <string name="categories_expenses_header">Expense categories</string>
+    <string name="categories_income_header">Income categories</string>
+    <string name="categories_empty">No categories</string>
+    <string name="category_new">New category</string>
+    <string name="category_edit">Edit category</string>
+    <string name="category_delete">Delete category</string>
+    <string name="category_name">Name</string>
+    <string name="category_icon">Icon</string>
+    <string name="category_color">Color</string>
+    <string name="category_in_use">This category is used by transactions and cannot be deleted</string>
+    <string name="category_deleted">Category deleted</string>
+    <string name="category_updated">Category updated</string>
+    <string name="category_duplicate">A category with that name already exists</string>
+    <string name="category_name_required">Enter a category name</string>
+    <string name="category_type">Type</string>
+    <string name="category_default">Default</string>
+    <string name="delete_category_confirm_title">Delete category?</string>
+    <string name="delete_category_confirm_message">The category will be removed permanently.</string>
+
+    <!-- Settings -->
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_currency">Currency</string>
+    <string name="settings_currency_subtitle">Used to display every amount</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_categories">Manage categories</string>
+    <string name="settings_categories_subtitle">Add, rename or remove categories</string>
+    <string name="settings_export">Export transactions (CSV)</string>
+    <string name="settings_export_subtitle">Save a copy of all transactions</string>
+    <string name="settings_delete_all">Delete all transactions and budgets</string>
+    <string name="settings_delete_all_subtitle">Categories are kept</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_about_text">Track expenses, plan budgets and understand your spending.</string>
+    <string name="settings_delete_confirm_title">Delete all data?</string>
+    <string name="settings_delete_confirm_message">All transactions and budgets will be permanently deleted. Categories will be kept.</string>
+    <string name="settings_deleted">All transactions and budgets deleted</string>
+    <string name="settings_export_done">Exported %1$d transactions</string>
+    <string name="settings_export_failed">Export failed</string>
+    <string name="settings_export_empty">There is nothing to export yet</string>
+    <plurals name="settings_transactions_count">
+        <item quantity="one">%1$d transaction stored</item>
+        <item quantity="other">%1$d transactions stored</item>
+    </plurals>
+    <string name="settings_currency_changed">Currency set to %1$s</string>
+    <string name="settings_no_handler">No app available to save the file</string>
+    <string name="settings_choose_currency">Choose a currency</string>
+    <string name="settings_export_file_name">expenses.csv</string>
+
+    <!-- Category icons -->
+    <string name="icon_burger" translatable="false">🍔</string>
+    <string name="icon_cart" translatable="false">🛒</string>
+    <string name="icon_bus" translatable="false">🚌</string>
+    <string name="icon_house" translatable="false">🏠</string>
+    <string name="icon_bulb" translatable="false">💡</string>
+    <string name="icon_bags" translatable="false">🛍️</string>
+    <string name="icon_pill" translatable="false">💊</string>
+    <string name="icon_movie" translatable="false">🎬</string>
+    <string name="icon_books" translatable="false">📚</string>
+    <string name="icon_plane" translatable="false">✈️</string>
+    <string name="icon_money" translatable="false">💰</string>
+    <string name="icon_laptop" translatable="false">💻</string>
+    <string name="icon_chart" translatable="false">📈</string>
+    <string name="icon_gift" translatable="false">🎁</string>
+    <string name="icon_tag" translatable="false">🏷️</string>
+    <string name="icon_coffee" translatable="false">☕</string>
+    <string name="icon_ball" translatable="false">⚽</string>
+    <string name="icon_paw" translatable="false">🐾</string>
+    <string name="icon_music" translatable="false">🎵</string>
+    <string name="icon_plus" translatable="false">➕</string>
+</resources>

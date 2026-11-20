@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/transactionsFragment">
+
+    <fragment
+        android:id="@+id/transactionsFragment"
+        android:name="com.personalexpenses.tracker.ui.transactions.TransactionsFragment"
+        android:label="@string/nav_transactions">
+        <action
+            android:id="@+id/action_transactions_to_add"
+            app:destination="@id/addEditTransactionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/budgetsFragment"
+        android:name="com.personalexpenses.tracker.ui.budgets.BudgetsFragment"
+        android:label="@string/nav_budgets" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.personalexpenses.tracker.ui.reports.ReportsFragment"
+        android:label="@string/nav_reports" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.personalexpenses.tracker.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+    <fragment
+        android:id="@+id/addEditTransactionFragment"
+        android:name="com.personalexpenses.tracker.ui.addedit.AddEditTransactionFragment"
+        android:label="@string/title_add_transaction">
+        <argument
+            android:name="transactionId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.personalexpenses.tracker.ui.categories.CategoriesFragment"
+        android:label="@string/categories_title" />
+
+    <action
+        android:id="@+id/action_global_add_transaction"
+        app:destination="@id/addEditTransactionFragment" />
+</navigation>
